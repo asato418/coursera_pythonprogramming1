@@ -233,10 +233,9 @@ a loop.
 """
 #%%
 def problem1_6():
-    pass # replace this pass (a do-nothing) statement with your code
-
-
-
+    for ct in range(1,100,2):
+        print(ct,end=" ")
+    print()
     
 #%% 
 """
@@ -276,15 +275,12 @@ The area of a trapezoid with bases 3.0 and 4.0 and height 8.0 is 28.0
 """  
 #%%
 def problem1_7():
-    pass # replace this pass (a do-nothing) statement with your code
-
-
-
-
-
-
-
-
+    b1 = input("Enter the length of one of the bases: ") 
+    b2 = input("Enter the length of the other base: ")
+    h  = input("Enter the height: ")
+    A = (1/2)*(float(b1)+float(b2))*float(h)
+    print("The area of a trapezoid with bases", float(b1), "and",float(b2),"and",float(h),"is", float(A) )
+    
 #%%
 """
 Another test run. In grading, expect different input numbers to be used.
