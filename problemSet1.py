@@ -229,8 +229,7 @@ a loop.
 def problem1_6():
     for ct in range(1,100,2):
         print(ct,end=" ")
-    print()
-    
+
 #%% 
 """
 Test run (I've inserted a newline here to cause wrapping in the editor):
@@ -273,8 +272,8 @@ def problem1_7():
     b2 = input("Enter the length of the other base: ")
     h  = input("Enter the height: ")
     A = (1/2)*(float(b1)+float(b2))*float(h)
-    print("The area of a trapezoid with bases", float(b1), "and",float(b2),"and",float(h),"is", float(A) )
-    
+    print("The area of a trapezoid with bases", float(b1), "and",float(b2),"and height",float(h),"is", float(A) )
+
 #%%
 """
 Another test run. In grading, expect different input numbers to be used.
