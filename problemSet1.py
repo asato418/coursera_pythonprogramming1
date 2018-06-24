@@ -113,9 +113,6 @@ def problem1_2(x,y):
     product = x * y
     print(sum)
     print(product)
-    print(x)
-    print(y)
-
 
 #%% 
 """
@@ -147,9 +144,6 @@ def problem1_3(n):
         ct=ct+1
     print(my_sum)
 
-
-    
-
 #%%
 """
 Test run. Note that the grader program will use a different number for n:
@@ -170,7 +164,7 @@ just one space or the auto-grader may not give you credit.
 #%%
 def problem1_4(miles):
     ft = 5280 * miles    
-    print("There are", ft, "feet in", miles,"miles" )
+    print("There are", ft, "feet in", miles,"miles." )
     
 
 
