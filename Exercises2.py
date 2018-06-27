@@ -7,6 +7,7 @@ accessing items in a list. Execute the following cell with Ctrl-Enter.
 """
 #%%
 lis = ["a","b","c","d","e","f"]
+lis1 = ["a","b","c","d","e","f","a", "a"] 
 #%%
 """ 
 Exercise:
@@ -107,8 +108,16 @@ Solution:
 """
 #%%
 def average(numlis):
-
-
+    ct = 0
+    total = 0
+    for let in numlis:
+        print(let)
+        total = total + let
+        ct = ct + 1
+    print("Average is", total/ct, "its count is",ct)
+    
+        
+    
 
 
 
