@@ -27,15 +27,8 @@ There are 141 letters in the file.
 """
 #%%
 def problem3_1(txtfilename):
-    infile = open(txtfilename)
+    pass # replace this pass (a do-nothing) statement with your code
 
-    count=0
-    for line in infile:
-        print(line, end="")
-        count = count + len(line)
-    infile.close()
-    print("\n") 
-    print("There are",+count,"letters in the file.")
 #%%
 """ 
 Problem 3_2:
@@ -59,10 +52,8 @@ str1 = "Rumplestilskin"             # string
 
 #%%
 def problem3_2(collection):
-    for i in range(0,len(collection)):
-        print (collection[i])
-        
-#%%    
+    pass # replace this pass (a do-nothing) statement with your code
+#%%
 """ 
 My runs 
 problem3_2(nlis)
@@ -124,9 +115,7 @@ exactly. Everything you need to do this is covered in the lectures. ***
 def problem3_3(month, day, year):
     """ Takes date of form mm/dd/yyyy and writes it in form June 17, 2016 
         Example3_3: problem3_3(6, 17, 2016) gives June 17, 2016 """
-    months = ("Janualy", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
-    output = str(months[month-1])+" "+str(day)+", "+str(year)
-    print(output)
+    pass # replace this pass (a do-nothing) statement with your code
 
 #%%
 """
@@ -154,9 +143,7 @@ problem3_4("July",17, 2016)
 #%%
 def problem3_4(mon, day, year):
     """ Takes date such as July 17, 2016 and write it as 7/17/2016 """
-    months={"January":1, "February":2, "March":3, "April":4, "May":5, "June":6, "July":7, "August":8, "September":9, "October":10, "November":11, "December":12}
-    output=str(months[mon])+"/"+str(day)+"/"+str(year)
-    print(output)
+    pass # replace this pass (a do-nothing) statement with your code
 
 #%%
 """    
@@ -181,7 +168,7 @@ def problem3_5(name):
     
     phone_numbers = {"abbie":"(860) 123-4535", "beverly":"(901) 454-3241", \
                       "james": "(212) 567-8149", "thomas": "(795) 342-9145"}
-    print(phone_numbers[name])
+    pass # replace this pass (a do-nothing) statement with your code
 
 #%%
 """
@@ -235,16 +222,6 @@ Solution starter:
 """
 #%%
 def problem3_7(csv_pricefile, flower):
-    import csv
-    
-    file=open(csv_pricefile)
-    for row in csv.reader(file):
-        if row[0]==flower:
-            print(row[1])
-        
-
-
-    
-    
+    pass # replace this pass (a do-nothing) statement with your code
     
 #%%

@@ -613,7 +613,7 @@ def read_csv_file2(filename):
     """Reads a CSV file and prints each row without list brackets. """
     f = open(filename)
     for row in csv.reader(f):
-        pass # replace this line with your code
+        print(row[0], row[1], row[2])
     f.close()
 #%%
 """
@@ -683,6 +683,7 @@ Solution starter:
 def name_phone(csv_filename):
     
     # open the csv file here
+    f = open(csv_filename)
     
     while True:
         nextname = input("Enter a friend's name, press return to end: ")
