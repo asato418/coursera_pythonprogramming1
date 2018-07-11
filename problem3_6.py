@@ -9,7 +9,6 @@ output_file_name = sys.argv[2]
 infile=open(input_file_name)
 outfile=open(output_file_name,'w')
 for line in infile:
-	print(line, end="")
 	line=line.strip("\n")
 	count=len(line)
 	outfile.write(str(count)+"\n")
